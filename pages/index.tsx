@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Maskani App - Your guide through the real estate jungle</title>
+        <title>Detect Objects in Videos</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1 maximum-scale=1 user-scalable=no"
