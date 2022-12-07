@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+textarea {
+    resize: none;
+}
+
+input:focus,
+textarea:focus {
+    outline: 0;
+    border: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+    line-height: 120.4%;
+    letter-spacing: -0.02em;
+}
+
+button {
+    transition: all ease-in 0.3s;
+    transform: perspective(100px) translateZ(0px);
+}
+
+button:hover {
+    transform: perspective(100px) translateZ(5px);
+}
+
+.animateLinkAsButton {
+    transition: all ease-in 0.3s;
+    transform: perspective(100px) translateZ(0px);
+}
+
+.animateLinkAsButton:hover {
+    transform: perspective(100px) translateZ(5px);
+}
