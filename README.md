@@ -3,3 +3,10 @@
 This is a web app that consumes a flask API that makes use of Google Inception V3 model to detect objects in a video.
 
 Open the app [here](https://detect-object-app.vercel.app/)
+
+## Project Contributors
+This project was developed by:
+- Adio Roheem
+- Modester Mwangi
+- Brenda Gilisho
+- Liplan Lekipising
